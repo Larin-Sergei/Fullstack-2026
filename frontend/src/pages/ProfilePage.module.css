@@ -1,0 +1,132 @@
+
+.page {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+.heading {
+  margin-bottom: 28px;
+}
+
+.heading h1 {
+  margin: 0 0 8px;
+  color: #111827;
+  font-size: 30px;
+}
+
+.heading p {
+  margin: 0;
+  color: #6b7280;
+}
+
+.card {
+  padding: 32px;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+.profileHeader {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 72px;
+  height: 72px;
+  background-color: #dbeafe;
+  color: #1d4ed8;
+  border-radius: 50%;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.profileHeader h2 {
+  margin: 0 0 6px;
+  color: #111827;
+  font-size: 22px;
+}
+
+.profileHeader p {
+  margin: 0;
+  color: #6b7280;
+  overflow-wrap: anywhere;
+}
+
+.details {
+  padding: 16px 0;
+}
+
+.detailRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 18px 0;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.label {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.value {
+  color: #111827;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+
+.actions {
+  display: flex;
+  margin-top: 24px;
+}
+
+.primaryButton {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #2563eb;
+  color: #ffffff;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.primaryButton:hover {
+  background-color: #1d4ed8;
+}
+
+.message {
+  color: #6b7280;
+}
+
+@media (max-width: 600px) {
+  .page {
+    padding: 24px 16px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .detailRow {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .value {
+    text-align: left;
+  }
+}
